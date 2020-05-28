@@ -1,5 +1,5 @@
 public without sharing class ContactController {
-    //This is to verify changes for github
+   // Testing the branch
     @AuraEnabled(cacheable=true)
     public static List<Contact> getRelatedContactList(Id accId){
         return [select id,name,phone,email from Contact where accountid =: accId];
