@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Related Contact List" icon-name="standard:contact"></lightning-card>
+    <div class="slds-m-around_medium">
+        <template if:true={isError}>
+            <div> {errorMessage} </div>
+        </template>
+        <lightning-datatable key-field="Id" data={data} columns={columns} hide-checkbox-column></lightning-datatable>
+    </div>
+</template>

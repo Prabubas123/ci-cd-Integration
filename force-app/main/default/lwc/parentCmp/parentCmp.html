@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Parent Component 1" icon-name="custom:custom13">
+        <lightning-layout>
+            <lightning-layout-item flexibility="auto" padding="around-medium">
+                <lightning-input label="Enter the message" onchange={handleChildMethod}></lightning-input>
+            </lightning-layout-item>
+
+            <lightning-layout-item flexibility="auto" padding="aroung-medium">
+                <!-- to call child component-->
+                <c-child-cmp1></c-child-cmp1>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

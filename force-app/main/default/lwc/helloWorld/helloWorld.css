@@ -1,0 +1,17 @@
+.greetings-styles{
+    color: crimson;
+}
+
+.input-box{
+    color: green;
+    border: 3px solid;
+}
+
+.align-cmp{
+    text-align: center;
+    border: 5px solid black;
+}
+
+:host{
+    border: 5px solid black;
+}
